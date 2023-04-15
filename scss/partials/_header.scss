@@ -1,8 +1,11 @@
+body{
+    overflow-x: hidden
+}
+
 @media only screen and (min-width: 920px) and (max-width: 1440px){
 .hd{
     background-color: rgba(0, 0, 0, 0.79);
     height: 120px;
-  
 }
 
 .titulo{
@@ -121,7 +124,6 @@
         background-color: rgba(0, 0, 0, 0.79);
         height: 150px;
         width: 100%;
-        margin-left: 5%;
       
     }
     

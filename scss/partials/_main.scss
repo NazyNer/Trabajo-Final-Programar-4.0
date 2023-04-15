@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1025px) and (max-width: 1440px){
+@media only screen and (min-width: 1250px) and (max-width: 1440px){
     .galeria{
         background-image: url(../img/fondo.jpg);
         background-repeat: no-repeat;
@@ -90,6 +90,548 @@
     }
 
 }
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 980px) and (max-width: 1250px){
+    .galeria{
+        background-image: url(../img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 60px;
+        width: 80px;
+        margin-top: 22%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 60px;
+        width: 80px;
+        margin-top: 22%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 265px;
+        width: 350px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        height: 185px;
+    }
+    
+    .cont{
+        font-size: 28px;
+        padding-top: 2%;
+    }
+    
+    .contref{
+        font-size: 22px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 36px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 175px;
+        width: 260px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 28px;
+        color: white;
+        margin: 1%;
+        
+    }
+
 }
+@media only screen and (min-width: 850px) and (max-width: 980px){
+    .galeria{
+        background-image: url(../img/fondo_celular.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 40px;
+        width: 60px;
+        margin-top: 22%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 40px;
+        width: 60px;
+        margin-top: 22%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 215px;
+        width: 300px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        height: 185px;
+    }
+    
+    .cont{
+        font-size: 28px;
+        padding-top: 2%;
+    }
+    
+    .contref{
+        font-size: 22px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 36px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 175px;
+        width: 260px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 28px;
+        color: white;
+        margin: 1%;
+        
+    }
+
+}
+@media only screen and (min-width: 685px) and (max-width: 980px){
+    .galeria{
+        background-image: url(../img/fondo_celular.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 175px;
+        width: 250px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        height: 185px;
+    }
+    
+    .cont{
+        font-size: 20px;
+        padding-top: 2%;
+    }
+    
+    .contref{
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 28px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 135px;
+        width: 210px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 20px;
+        color: white;
+        margin: 3% 1%;
+        
+    }
+
+}
+@media only screen and (min-width: 546px) and (max-width: 685px){
+    .galeria{
+        background-image: url(../img/fondo_celular.jpg);
+        background-repeat: repeat-y;
+        object-fit: cover;
+        background-size: 100%;
+        width: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 135px;
+        width: 210px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        width: 100%;
+        height: 185px;
+    }
+
+    .contitulos{
+        margin-left: 25%;
+    }
+
+    .cont{
+        font-size: 20px;
+        width: 100%;
+        padding-top: 2%;
+       
+    }
+    
+    .contref{
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        width: 100%;
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 28px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 135px;
+        width: 210px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        width: 100%;
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 20px;
+        color: white;
+        margin: 3% 1%;
+        
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width: 546px){
+    .galeria{
+        background-image: url(../img/fondo_celular.jpg);
+        background-repeat: repeat-y;
+        object-fit: cover;
+        background-size: 100%;
+        width: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 30px;
+        width: 50px;
+        margin-top: 24%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 135px;
+        width: 210px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        width: 100%;
+        height: 185px;
+    }
+
+    .contitulos{
+        margin-left: 10%;
+    }
+
+    .cont{
+        font-size: 20px;
+        width: 100%;
+        padding-top: 2%;
+       
+    }
+    
+    .contref{
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        width: 100%;
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 28px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 135px;
+        width: 210px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        width: 100%;
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 20px;
+        color: white;
+        margin: 3% 1%;
+        
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .galeria{
+        background-image: url(../img/fondo_celular.jpg);
+        background-repeat: repeat-y;
+        object-fit: cover;
+        background-size: 100%;
+        width: 100%;
+        height: 550px;
+    }
+    
+    .arr-izq{
+        height: 20px;
+        width: 40px;
+        margin-top: 24%;
+        margin-right: 2%;
+        transform: rotate(180deg);
+    }
+    
+    .arr-der{
+        height: 20px;
+        width: 40px;
+        margin-top: 24%;
+        margin-left: 2%;
+    }
+    
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        background-color: orange;
+        height: 100px;
+        width: 175px;
+        margin-top: 13%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .img3{
+        display: none;
+    }
+    
+    .contacto{
+        background-color: rgba(233,47,47,1);
+        width: 100%;
+        height: 185px;
+    }
+
+    .contitulos{
+        margin-left: 10%;
+    }
+
+    .cont{
+        font-size: 16px;
+        width: 100%;
+        padding-top: 2%;
+       
+    }
+    
+    .contref{
+        font-size: 10px;
+        padding-top: 2%;
+    }
+    
+    .masVendidos{
+        background: linear-gradient( to bottom, rgba(233,47,47,1) 0%, rgba(84,8,8,1) 100%);
+        width: 100%;
+        height: 409px;
+    }
+    
+    .titulo2{
+        font-size: 24px;
+        color: white;
+        margin-top: 1%;
+    }
+    
+    .imgsmall{
+        margin-top: 10%;
+        height: 135px;
+        width: 210px;
+    }
+    
+    .ft{
+        background: linear-gradient(to bottom , rgba(84,8,8,1) 0%, rgba(0,0,0,1) 100%);
+        width: 100%;
+        height: 151px;
+    }
+    
+    .titulof{
+        font-size: 16px;
+        color: white;
+        margin: 3% 1%;
+        
+    }
+
+}
+
 
