@@ -4,7 +4,7 @@ body {
 @media only screen and (min-width: 920px) and (max-width: 1440px) {
   .hd {
     background-color: rgba(0, 0, 0, 0.79);
-    height: 120px; }
+    height: 150px; }
   .titulo {
     margin-top: 1%;
     color: white;
@@ -14,12 +14,8 @@ body {
     margin-right: 3%;
     color: white;
     font-size: 28px; }
-  .nav {
-    margin-right: 3%; }
-  .nav-item {
-    margin-left: 20px; }
-  .nav-item a {
-    font-size: 18px; }
+  .nav-link {
+    color: white; }
   .logo {
     margin-left: 3%;
     margin-top: 1%;
@@ -39,19 +35,15 @@ body {
     margin: 0 3%;
     color: white;
     font-size: 22px; }
-  .nav {
-    margin-right: 3%; }
-  .nav-item {
-    margin-left: 10px; }
-  .nav-item a {
-    font-size: 18px; }
+  .nav-link {
+    color: white; }
   .logo {
     margin-left: 3%;
     margin-top: 1%;
     height: 80px;
     width: 100px; } }
 
-@media only screen and (min-width: 513px) and (max-width: 670px) {
+@media only screen and (min-width: 575px) and (max-width: 670px) {
   .hd {
     background-color: rgba(0, 0, 0, 0.79);
     height: 150px; }
@@ -64,20 +56,15 @@ body {
     margin: 0 3%;
     color: white;
     font-size: 22px; }
-  .nav {
-    display: none; }
+  .nav-link {
+    color: white; }
   .logo {
     margin-left: 3%;
     margin-top: 1%;
     height: 80px;
-    width: 100px; }
-  .nav-burger {
-    background-color: red;
-    height: 40px;
-    width: 40px;
-    margin: 2% 6%; } }
+    width: 100px; } }
 
-@media only screen and (min-width: 320px) and (max-width: 513px) {
+@media only screen and (min-width: 320px) and (max-width: 575px) {
   .hd {
     background-color: rgba(0, 0, 0, 0.79);
     height: 150px;
@@ -88,18 +75,13 @@ body {
     font-size: 30px; }
   .sub-titulo {
     display: none; }
-  .nav {
-    display: none; }
+  .nav-link {
+    color: white; }
   .logo {
     margin-left: 3%;
     margin-top: 1%;
     height: 80px;
-    width: 100px; }
-  .nav-burger {
-    background-color: red;
-    height: 40px;
-    width: 40px;
-    margin: 2% 6%; } }
+    width: 100px; } }
 
 @media only screen and (min-width: 1250px) and (max-width: 1440px) {
   .galeria {
@@ -222,7 +204,7 @@ body {
 
 @media only screen and (min-width: 850px) and (max-width: 980px) {
   .galeria {
-    background-image: url(../img/fondo_celular.jpg);
+    background-image: url(../img/fotos_tablet.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 550px; }
@@ -276,9 +258,9 @@ body {
     color: white;
     margin: 1%; } }
 
-@media only screen and (min-width: 685px) and (max-width: 980px) {
+@media only screen and (min-width: 685px) and (max-width: 850px) {
   .galeria {
-    background-image: url(../img/fondo_celular.jpg);
+    background-image: url(../img/fotos_tablet.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 550px; }
@@ -334,7 +316,7 @@ body {
 
 @media only screen and (min-width: 546px) and (max-width: 685px) {
   .galeria {
-    background-image: url(../img/fondo_celular.jpg);
+    background-image: url(../img/fotos_tablet.jpg);
     background-repeat: repeat-y;
     object-fit: cover;
     background-size: 100%;
@@ -427,18 +409,7 @@ body {
   .img3 {
     display: none; }
   .contacto {
-    background-color: #e92f2f;
-    width: 100%;
-    height: 185px; }
-  .contitulos {
-    margin-left: 10%; }
-  .cont {
-    font-size: 20px;
-    width: 100%;
-    padding-top: 2%; }
-  .contref {
-    font-size: 14px;
-    padding-top: 2%; }
+    display: none; }
   .masVendidos {
     background: linear-gradient(to bottom, #e92f2f 0%, #540808 100%);
     width: 100%;
@@ -491,18 +462,7 @@ body {
   .img3 {
     display: none; }
   .contacto {
-    background-color: #e92f2f;
-    width: 100%;
-    height: 185px; }
-  .contitulos {
-    margin-left: 10%; }
-  .cont {
-    font-size: 16px;
-    width: 100%;
-    padding-top: 2%; }
-  .contref {
-    font-size: 10px;
-    padding-top: 2%; }
+    display: none; }
   .masVendidos {
     background: linear-gradient(to bottom, #e92f2f 0%, #540808 100%);
     width: 100%;
