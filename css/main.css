@@ -81,7 +81,12 @@ body {
     margin-left: 3%;
     margin-top: 1%;
     height: 80px;
-    width: 100px; } }
+    width: 100px; }
+  .navbar {
+    margin-left: 3%; }
+  .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 125px; } }
 
 @media only screen and (min-width: 1250px) and (max-width: 1440px) {
   .galeria {
