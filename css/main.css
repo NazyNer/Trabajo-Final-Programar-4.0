@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden; }
-
-@media only screen and (min-width: 920px) and (max-width: 1440px) {
+/* Dejamos solo el minimo, asi si hay una pantalla mas grande aun siga funcionando el css */
+@media only screen and (min-width: 920px){
   .hd {
     background-color: rgba(0, 0, 0, 0.79);
     height: 150px; }
@@ -87,8 +87,8 @@ body {
   .navbar-nav {
     background-color: rgba(0, 0, 0, 0.79);
     width: 125px; } }
-
-@media only screen and (min-width: 1250px) and (max-width: 1440px) {
+/* Dejamos solo el minimo, asi si hay una pantalla mas grande aun siga funcionando el css */
+@media only screen and (min-width: 1250px){
   .galeria {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
