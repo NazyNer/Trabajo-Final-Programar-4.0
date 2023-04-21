@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1250px) and (max-width: 1440px){
+@media only screen and (min-width: 1250px){
     .galeria{
         background-image: url(../img/fondo.jpg);
         background-repeat: no-repeat;
@@ -269,18 +269,11 @@
     }
     
     .arr-izq{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-right: 2%;
-        transform: rotate(180deg);
+        display: none;
     }
     
     .arr-der{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-left: 2%;
+        display: none;
     }
     
     .img1{
@@ -356,18 +349,11 @@
     }
     
     .arr-izq{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-right: 2%;
-        transform: rotate(180deg);
+        display: none;
     }
     
     .arr-der{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-left: 2%;
+        display: none;
     }
     
     .img1{
@@ -452,18 +438,11 @@
     }
     
     .arr-izq{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-right: 2%;
-        transform: rotate(180deg);
+        display: none;
     }
     
     .arr-der{
-        height: 30px;
-        width: 50px;
-        margin-top: 24%;
-        margin-left: 2%;
+        display: none;
     }
     
     .img1{
@@ -477,6 +456,10 @@
         margin-top: 13%;
         margin-right: 2%;
         margin-left: 2%;
+    }
+
+    .imgcent{
+        margin-left: 12%;
     }
     
     .img3{
@@ -530,18 +513,11 @@
     }
     
     .arr-izq{
-        height: 20px;
-        width: 40px;
-        margin-top: 24%;
-        margin-right: 2%;
-        transform: rotate(180deg);
+        display: none;
     }
     
     .arr-der{
-        height: 20px;
-        width: 40px;
-        margin-top: 24%;
-        margin-left: 2%;
+        display: none;
     }
     
     .img1{
@@ -550,11 +526,15 @@
     
     .img2{
         background-color: orange;
-        height: 100px;
-        width: 175px;
+        height: 135px;
+        width: 210px;
         margin-top: 13%;
         margin-right: 2%;
         margin-left: 2%;
+    }
+
+    .imgcent{
+        margin-left: 12%;
     }
     
     .img3{
