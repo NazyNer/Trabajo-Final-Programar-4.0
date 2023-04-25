@@ -1,0 +1,624 @@
+@media only screen and (min-width: 1500px) {
+  .BG-Contact {
+    background-color: gray;
+    height: 69.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-white {
+    background-color: white;
+    width: 79.16%;
+    height: 79.39%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-red {
+    background-color: rgba(82, 6, 6, 0.95);
+    width: 94%;
+    height: 94%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contain-Form {
+    width: 96.3%;
+    height: 95.4%;
+    border: 9px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 60%;
+      height: 91.8%;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+
+      h1,
+      label,
+      input {
+        position: absolute;
+      }
+
+      label {
+        font-size: 20px;
+      }
+
+      .form-h1 {
+        top: 0;
+      }
+
+      .lbl_Nombre {
+        top: 13%;
+        left: 8%;
+      }
+
+      .ipt_Nombre {
+        top: 23%;
+        left: 0;
+      }
+
+      .lbl_Apellido {
+        top: 13%;
+        right: 7%;
+      }
+
+      .ipt_Apellido {
+        top: 23%;
+        right: 0;
+      }
+
+      .lbl_Email {
+        top: 33%;
+        left: 10%;
+      }
+
+      .ipt_Email {
+        top: 43%;
+        left: 0;
+      }
+
+      .lbl_Telefono {
+        top: 33%;
+        right: 7%;
+      }
+
+      .ipt_Telefono {
+        top: 43%;
+        right: 0;
+      }
+
+      .lbl_Mensaje {
+        top: 53%;
+      }
+
+      .ipt_Mensaje {
+        top: 63%;
+        width: 70%;
+        height: 25%;
+      }
+
+    }
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1499px) {
+  .BG-Contact {
+    background-color: gray;
+    height: 60.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-white {
+    background-color: white;
+    width: 79.16%;
+    height: 79.39%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-red {
+    background-color: rgba(82, 6, 6, 0.95);
+    width: 94%;
+    height: 94%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contain-Form {
+    width: 96.3%;
+    height: 95.4%;
+    border: 9px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 86.8%;
+      height: 91.8%;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+
+      h1,
+      label,
+      input {
+        position: absolute;
+      }
+
+      label {
+        font-size: 20px;
+      }
+
+      .form-h1 {
+        top: 0;
+      }
+
+      .lbl_Nombre {
+        top: 13%;
+        left: 6%;
+      }
+
+      .ipt_Nombre {
+        top: 23%;
+        left: 0;
+      }
+
+      .lbl_Apellido {
+        top: 13%;
+        right: 6%;
+      }
+
+      .ipt_Apellido {
+        top: 23%;
+        right: 0;
+      }
+
+      .lbl_Email {
+        top: 33%;
+        left: 6%;
+      }
+
+      .ipt_Email {
+        top: 43%;
+        left: 0;
+      }
+
+      .lbl_Telefono {
+        top: 33%;
+        right: 6%;
+      }
+
+      .ipt_Telefono {
+        top: 43%;
+        right: 0;
+      }
+
+      .lbl_Mensaje {
+        top: 53%;
+      }
+
+      .ipt_Mensaje {
+        top: 63%;
+        width: 70%;
+        height: 25%;
+      }
+
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .BG-Contact {
+    background-color: gray;
+    height: 60.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-white {
+    background-color: white;
+    width: 79.16%;
+    height: 79.39%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-red {
+    background-color: rgba(82, 6, 6, 0.95);
+    width: 94%;
+    height: 94%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contain-Form {
+    width: 96.3%;
+    height: 95.4%;
+    border: 9px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 86.8%;
+      height: 91.8%;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+
+      h1,
+      label,
+      input {
+        position: absolute;
+      }
+
+      label {
+        font-size: 20px;
+      }
+
+      .form-h1 {
+        top: 0;
+      }
+
+      .lbl_Nombre {
+        top: 13%;
+        left: 10%;
+      }
+
+      .ipt_Nombre {
+        top: 23%;
+        left: 0;
+      }
+
+      .lbl_Apellido {
+        top: 13%;
+        right: 10%;
+      }
+
+      .ipt_Apellido {
+        top: 23%;
+        right: 0;
+      }
+
+      .lbl_Email {
+        top: 33%;
+        left: 10%;
+      }
+
+      .ipt_Email {
+        top: 43%;
+        left: 0;
+      }
+
+      .lbl_Telefono {
+        top: 33%;
+        right: 10%;
+      }
+
+      .ipt_Telefono {
+        top: 43%;
+        right: 0;
+      }
+
+      .lbl_Mensaje {
+        top: 53%;
+      }
+
+      .ipt_Mensaje {
+        top: 63%;
+        width: 70%;
+        height: 25%;
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .BG-Contact {
+    background-color: gray;
+    height: 60.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-white {
+    background-color: white;
+    width: 79.16%;
+    height: 79.39%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Modal-red {
+    background-color: rgba(82, 6, 6, 0.95);
+    width: 94%;
+    height: 94%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contain-Form {
+    width: 96.3%;
+    height: 95.4%;
+    border: 9px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 86.8%;
+      height: 91.8%;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+
+      h1,
+      label,
+      input {
+        position: absolute;
+      }
+
+      label {
+        font-size: 20px;
+      }
+
+      .form-h1 {
+        top: 0;
+      }
+
+      .lbl_Nombre {
+        top: 13%;
+        left: 14%;
+      }
+
+      .ipt_Nombre {
+        top: 23%;
+        left: 0;
+      }
+
+      .lbl_Apellido {
+        top: 13%;
+        right: 14%;
+      }
+
+      .ipt_Apellido {
+        top: 23%;
+        right: 0;
+      }
+
+      .lbl_Email {
+        top: 33%;
+        left: 14%;
+      }
+
+      .ipt_Email {
+        top: 43%;
+        left: 0;
+      }
+
+      .lbl_Telefono {
+        top: 33%;
+        right: 14%;
+      }
+
+      .ipt_Telefono {
+        top: 43%;
+        right: 0;
+      }
+
+      .lbl_Mensaje {
+        top: 53%;
+      }
+
+      .ipt_Mensaje {
+        top: 63%;
+        width: 70%;
+        height: 25%;
+      }
+
+
+    }
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .BG-Contact {
+    background-color: rgba(82, 6, 6, 0.95);
+    height: 60.7422vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Modal-white {
+    background-color: rgba(217, 217, 217, 1);
+    width: 63.2%;
+    height: 74.22%;
+    box-shadow: 1px 0px 20px 28px rgba(19, 153, 161, 0.5);
+  }
+
+  .Modal-red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contain-Form {
+    width: 74.2%;
+    height: 74.22%;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        margin: 5px;
+        text-align: center;
+        border-radius: 13px 31px 13px 31px;
+        border: 0px;
+      }
+
+      input::placeholder {
+        color: black;
+      }
+
+      .ipt_Mensaje {
+        height: 12vh;
+        border-radius: 0;
+      }
+      .btn_Enviar{
+        border-radius: 0;
+      }
+    }
+
+    .lbl_Nombre {
+      display: none;
+    }
+
+    .lbl_Apellido {
+      display: none;
+    }
+
+    .lbl_Email {
+      display: none;
+    }
+  }
+
+  .lbl_Telefono {
+    display: none;
+  }
+
+  .lbl_Mensaje {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  .BG-Contact {
+    background-color: rgba(130, 130, 130, 1);
+    width: 100%;
+    height: 60.8vh;
+    border: 4px solid black;
+  }
+
+  .Modal-white {
+    background-color: rgba(15, 124, 98, 1);
+    height: 100%;
+    border-radius: 93px 0 111px 0;
+    border: 4px solid black;
+  }
+
+  .Modal-red {
+    background-color: rgba(82, 6, 6, 1);
+    height: 100%;
+    border-radius: 196.5px 0 105px 196.5px;
+    border: 4px solid black;
+  }
+
+  .Contain-Form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      color: white;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        margin: 5px;
+        text-align: center;
+      }
+
+      input::placeholder {
+        color: black;
+      }
+
+      .ipt_Mensaje {
+        height: 12vh;
+      }
+    }
+
+    .lbl_Nombre {
+      display: none;
+    }
+
+    .lbl_Apellido {
+      display: none;
+    }
+
+    .lbl_Email {
+      display: none;
+    }
+
+
+    .lbl_Telefono {
+      display: none;
+    }
+
+    .lbl_Mensaje {
+      display: none;
+    }
+  }
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+.row {
+  margin-right: 0;
+}
+.btn_Enviar {
+
+  box-shadow: 0px 0px 10px 5px black;
+  bottom: -7px;
+}
