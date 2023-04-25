@@ -1,9 +1,10 @@
 body {
   overflow-x: hidden;
 }
+
 @media only screen and (min-width: 920px) {
   .hd {
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgb(49, 49, 49);
     height: 150px;
   }
   .titulo {
@@ -26,10 +27,13 @@ body {
     height: 80px;
     width: 100px;
   }
+  .navbar {
+    margin-left: 3%;
+  }
 }
 @media only screen and (min-width: 670px) and (max-width: 920px) {
   .hd {
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgb(49, 49, 49);
     height: 150px;
   }
   .titulo {
@@ -51,11 +55,14 @@ body {
     margin-top: 1%;
     height: 80px;
     width: 100px;
+  }
+  .navbar {
+    margin-left: 3%;
   }
 }
 @media only screen and (min-width: 575px) and (max-width: 670px) {
   .hd {
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgb(49, 49, 49);
     height: 150px;
   }
   .titulo {
@@ -78,10 +85,13 @@ body {
     height: 80px;
     width: 100px;
   }
+  .navbar {
+    margin-left: 3%;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .hd {
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgb(49, 49, 49);
     height: 150px;
     width: 100%;
   }
@@ -101,6 +111,13 @@ body {
     margin-top: 1%;
     height: 80px;
     width: 100px;
+  }
+  .navbar {
+    margin-left: 3%;
+  }
+  .navbar-nav {
+    background-color: rgba(65, 65, 65, 0.79);
+    width: 125px;
   }
 }
 @media only screen and (min-width: 1250px) {
@@ -328,17 +345,10 @@ body {
     height: 550px;
   }
   .arr-izq {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-right: 2%;
-    transform: rotate(180deg);
+    display: none;
   }
   .arr-der {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-left: 2%;
+    display: none;
   }
   .img1 {
     display: none;
@@ -400,17 +410,10 @@ body {
     height: 550px;
   }
   .arr-izq {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-right: 2%;
-    transform: rotate(180deg);
+    display: none;
   }
   .arr-der {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-left: 2%;
+    display: none;
   }
   .img1 {
     display: none;
@@ -479,17 +482,10 @@ body {
     height: 550px;
   }
   .arr-izq {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-right: 2%;
-    transform: rotate(180deg);
+    display: none;
   }
   .arr-der {
-    height: 30px;
-    width: 50px;
-    margin-top: 24%;
-    margin-left: 2%;
+    display: none;
   }
   .img1 {
     display: none;
@@ -501,6 +497,9 @@ body {
     margin-top: 13%;
     margin-right: 2%;
     margin-left: 2%;
+  }
+  .imgcent {
+    margin-left: 12%;
   }
   .img3 {
     display: none;
@@ -544,17 +543,10 @@ body {
     height: 550px;
   }
   .arr-izq {
-    height: 20px;
-    width: 40px;
-    margin-top: 24%;
-    margin-right: 2%;
-    transform: rotate(180deg);
+    display: none;
   }
   .arr-der {
-    height: 20px;
-    width: 40px;
-    margin-top: 24%;
-    margin-left: 2%;
+    display: none;
   }
   .img1 {
     display: none;
@@ -566,6 +558,9 @@ body {
     margin-top: 13%;
     margin-right: 2%;
     margin-left: 2%;
+  }
+  .imgcent {
+    margin-left: 12%;
   }
   .img3 {
     display: none;
@@ -1120,3 +1115,62 @@ input::placeholder {
   box-shadow: 0px 0px 10px 5px black;
   bottom: -7px;
 }
+
+.Nosotros {
+  height: 60.6vh;
+  position: relative;
+  background-color: rgb(250, 14, 14);
+}
+.Nosotros .title {
+  text-align: center;
+}
+.Nosotros .title .Miembros {
+  font-size: 55px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.Nosotros .foto1 h1, .Nosotros .foto2 h1, .Nosotros .foto3 h1 {
+  color: yellow;
+  position: absolute;
+  font-size: 21px;
+}
+.Nosotros .foto1 {
+  position: absolute;
+  left: 3%;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  border: 4px;
+}
+.Nosotros .foto1 h1 {
+  bottom: -15%;
+}
+.Nosotros .foto2 {
+  right: 5%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  border: 4px;
+}
+.Nosotros .foto2 h1 {
+  bottom: -15%;
+  right: 25%;
+}
+.Nosotros .foto3 {
+  left: 43%;
+  bottom: 0;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border-radius: 50%;
+  border: 4px;
+}
+.Nosotros .foto3 h1 {
+  top: -15%;
+  left: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */

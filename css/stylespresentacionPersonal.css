@@ -1,97 +1,58 @@
-* {
-background-color: rgb(250, 14, 14);
+body {
+    background-color: rgb(250, 14, 14);
 }
 
-.Miembros{
-   position: fixed;
-   top: -30px;
-   right: 475px;
-   font-size: 55px;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.logo{
-   position: fixed;
-   top: -150px;
-   width: 700px;
-   height: 800px;
-   right: 265px;
-   background-color: transparent;
+.Miembros {
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-.foto1{
+
+.foto1 {
     height: 200px;
     width: 200px;
-    top: 150px;
-    position: fixed;
-    left: 100px;
     background-color: black;
     border-radius: 50%;
     border: 4px;
 }
 
-.Arcangel{
-    position: fixed;
-    top: 340px;
-    left: 70px;
-}
+.Arcangel {}
 
-.Arcangeld{
-    position: fixed;
-    top: 390px;
-    left: 115px;
+.Arcangeld {
     color: yellow;
 }
 
 
 
-.foto2{
+.foto2 {
     height: 200px;
     width: 200px;
-    top: 150px;
-    position: fixed;
-    right: 100px;
     background-color: black;
     border-radius: 50%;
     border: 4px;
 }
 
-.Julio{
-    position: fixed;
-    top: 340px;
+.Julio {
     right: 110px;
 }
 
-.Juliod{
-    position: fixed;
-    top: 390px;
-    right: 110px;
+.Juliod {
     color: yellow;
 
 }
 
 
-.foto3{
+.foto3 {
     height: 200px;
     width: 200px;
-    top: 360px;
-    right: 505px;
-    position: fixed;
     background-color: aqua;
     border-radius: 50%;
     border: 4px;
 }
 
-.Fede{
-    position: fixed;
-    top: 550px;
-    right: 480px ;
-}
+.Fede {}
 
-.Feded{
-    position: fixed;
-    top: 600px;
-    right: 520px;
+.Feded {
     color: yellow;
 }
