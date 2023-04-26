@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(250, 14, 14);
+}
+
+.Miembros {
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.foto1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px;
+}
+
+.Arcangel {}
+
+.Arcangeld {
+    color: yellow;
+}
+
+
+
+.foto2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px;
+}
+
+.Julio {
+    right: 110px;
+}
+
+.Juliod {
+    color: yellow;
+
+}
+
+
+.foto3 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 4px;
+}
+
+.Fede {}
+
+.Feded {
+    color: yellow;
+}

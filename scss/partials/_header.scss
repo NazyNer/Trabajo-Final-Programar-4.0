@@ -1,0 +1,147 @@
+body{
+    overflow-x: hidden
+}
+
+@media only screen and (min-width: 920px){
+.hd{
+    background-color: $BG-Color;
+    height: 150px;
+}
+
+.titulo{
+    margin-top: 1%;
+    color: $HR-Color;
+    font-size: 48px;
+}
+
+.sub-titulo{
+    margin-top: 1%;
+    margin-right: 3%;
+    color: $HR-Color;
+    font-size: 28px;
+}
+
+.nav-link{
+    color: $HR-Color;
+}
+
+.logo{
+    margin-left: 3%;
+    margin-top: 1%;
+    height: 80px;
+    width: 100px;
+}
+
+.navbar{
+    margin-left: 3%;
+}
+
+}
+@media only screen and (min-width: 670px) and (max-width: 920px){
+    .hd{
+        background-color: $BG-Color;
+        height: 150px;
+    }
+    
+    .titulo{
+        margin-top: 1%;
+        color: $HR-Color;
+        font-size: 38px;
+    }
+    
+    .sub-titulo{
+        margin-top: 1%;
+        margin: 0 3%;
+        color: $HR-Color;
+        font-size: 22px;
+    }
+
+    .nav-link{
+        color: $HR-Color;
+    }
+    
+    .logo{
+        margin-left: 3%;
+        margin-top: 1%;
+        height: 80px;
+        width: 100px;
+    }
+
+    .navbar{
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 670px){
+    .hd{
+        background-color: $BG-Color;
+        height: 150px;
+    }
+    
+    .titulo{
+        margin-top: 1%;
+        color: $HR-Color;
+        font-size: 38px;
+    }
+    
+    .sub-titulo{
+        margin-top: 1%;
+        margin: 0 3%;
+        color: $HR-Color;
+        font-size: 22px;
+    }
+
+    .nav-link{
+        color: $HR-Color;
+    }
+
+    .logo{
+        margin-left: 3%;
+        margin-top: 1%;
+        height: 80px;
+        width: 100px;
+    }
+
+    .navbar{
+        margin-left: 3%;
+    }
+    
+
+}
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    .hd{
+        background-color: $BG-Color;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .titulo{
+        margin-top: 1%;
+        color: $HR-Color;
+        font-size: 30px;
+    }
+    
+    .sub-titulo{
+        display: none;
+    }
+    
+    .nav-link{
+        color: $HR-Color;
+    }
+
+    .logo{
+        margin-left: 3%;
+        margin-top: 1%;
+        height: 80px;
+        width: 100px;
+    }
+
+    .navbar{
+        margin-left: 3%;
+    }
+
+    .navbar-nav{
+        background-color: rgba(65, 65, 65, 0.79);
+        width: 125px;
+    }
+}

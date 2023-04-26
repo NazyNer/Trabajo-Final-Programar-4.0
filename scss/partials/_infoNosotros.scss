@@ -1,0 +1,56 @@
+.Nosotros{
+  height: 60.6vh;
+  position: relative;
+  background-color: rgb(250, 14, 14);
+  .title{
+    text-align: center;
+    .Miembros{
+      font-size: 55px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  }
+  .foto1 h1, .foto2 h1, .foto3 h1 {
+    color: yellow;
+    position: absolute;
+    font-size: 21px;
+  }
+  .foto1 {
+    position: absolute;
+    left: 3%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px;
+    h1{
+      bottom: -15%;
+    }
+  }
+  .foto2 {
+    right: 5%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px;
+    h1{
+      bottom: -15%;
+      right: 25%;
+    }
+  }
+  .foto3 {
+    left: 43%;
+    bottom: 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 4px;
+    h1{
+      top: -15%;
+      left: 5%;
+    }
+  }
+}
