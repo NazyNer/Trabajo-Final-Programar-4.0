@@ -1119,7 +1119,7 @@ input::placeholder {
 .Nosotros {
   height: 60.6vh;
   position: relative;
-  background-color: rgb(250, 14, 14);
+  background-color: rgb(158, 12, 12);
 }
 .Nosotros .title {
   text-align: center;
@@ -1133,17 +1133,26 @@ input::placeholder {
   position: absolute;
   font-size: 21px;
 }
+.Nosotros .foto1 h2, .Nosotros .foto2 h2, .Nosotros .foto3 h2 {
+  position: absolute;
+  font-size: 21px;
+}
 .Nosotros .foto1 {
   position: absolute;
   left: 3%;
   height: 200px;
   width: 200px;
-  background-color: black;
+  background-image: url(../../img/14.jpg);
+  background-size: cover;
+  background-position: left;
   border-radius: 50%;
   border: 4px;
 }
 .Nosotros .foto1 h1 {
   bottom: -15%;
+}
+.Nosotros .foto1 h2 {
+  bottom: -25%;
 }
 .Nosotros .foto2 {
   right: 5%;
@@ -1158,9 +1167,13 @@ input::placeholder {
   bottom: -15%;
   right: 25%;
 }
+.Nosotros .foto2 h2 {
+  bottom: -25%;
+  right: 15%;
+}
 .Nosotros .foto3 {
   left: 43%;
-  bottom: 0;
+  bottom: 5%;
   position: absolute;
   height: 200px;
   width: 200px;
@@ -1171,6 +1184,149 @@ input::placeholder {
 .Nosotros .foto3 h1 {
   top: -15%;
   left: 5%;
+}
+.Nosotros .foto3 h2 {
+  top: -25%;
+  left: 5%;
+}
+
+.wrapper {
+  padding: 3rem;
+}
+.wrapper .titulo-principal {
+  color: white;
+  margin-bottom: 2rem;
+}
+.wrapper .contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.wrapper .contenedor-productos .producto .producto-imagen {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.wrapper .contenedor-productos .producto .producto-detalles {
+  background-color: rgb(68, 6, 6);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: -1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.wrapper .contenedor-productos .producto .producto-detalles .producto-titulo {
+  font-size: 1rem;
+}
+.wrapper .contenedor-productos .producto .producto-detalles .producto-agregar {
+  background-color: white;
+  padding: 0.4rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 2px solid green;
+  transition: background-color 0.3s ease-in-out;
+}
+.wrapper .contenedor-productos .producto .producto-detalles .producto-agregar:hover {
+  background-color: green;
+  color: white;
+}
+
+.boton-carrito .numerito {
+  background-color: white;
+  color: rgb(126, 18, 18);
+  padding: 0.15rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.wrapper {
+  background-color: rgb(36, 35, 35);
+}
+.wrapper .contenedor-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.wrapper .contenedor-carrito .carrito-vacio {
+  color: rgb(126, 18, 18);
+}
+.wrapper .contenedor-carrito .carrito-comprado {
+  color: rgb(31, 126, 18);
+}
+.wrapper .contenedor-carrito .carrito-acciones {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .contenedor-carrito .carrito-acciones .carrito-acciones-izq .carrito-acciones-vaciar {
+  border: 0;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.wrapper .contenedor-carrito .carrito-acciones .carrito-acciones-der {
+  display: flex;
+}
+.wrapper .contenedor-carrito .carrito-acciones .carrito-acciones-der .carrito-acciones-total {
+  display: flex;
+  gap: 1rem;
+  background-color: gray;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.wrapper .contenedor-carrito .carrito-acciones .carrito-acciones-der .carrito-acciones-comprar {
+  border: 0;
+  background-color: green;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.wrapper .contenedor-carrito .carrito-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.wrapper .contenedor-carrito .carrito-productos .carrito-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(84, 8, 8);
+  color: white;
+  padding: 0.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+}
+.wrapper .contenedor-carrito .carrito-productos .carrito-producto small {
+  font-size: 0.75rem;
+}
+.wrapper .contenedor-carrito .carrito-productos .carrito-producto .carrito-producto-eliminar {
+  border: 0;
+  background-color: transparent;
+  color: rgb(255, 153, 0);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.wrapper .contenedor-carrito .carrito-productos .carrito-producto .carrito-producto-imagen {
+  width: 10rem;
+  border-radius: 1rem;
+}
+
+.disabled {
+  display: none;
+}
+
+.complete {
+  height: 84.6vh;
 }
 
 /*# sourceMappingURL=main.css.map */

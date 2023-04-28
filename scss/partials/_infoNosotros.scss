@@ -1,7 +1,7 @@
 .Nosotros{
   height: 60.6vh;
   position: relative;
-  background-color: rgb(250, 14, 14);
+  background-color: rgb(158, 12, 12);
   .title{
     text-align: center;
     .Miembros{
@@ -13,17 +13,25 @@
     color: yellow;
     position: absolute;
     font-size: 21px;
+  }.foto1 h2, .foto2 h2, .foto3 h2 {
+    position: absolute;
+    font-size: 21px;
   }
   .foto1 {
     position: absolute;
     left: 3%;
     height: 200px;
     width: 200px;
-    background-color: black;
+    background-image: url(../../img/14.jpg);
+    background-size: cover;
+    background-position: left;
     border-radius: 50%;
     border: 4px;
     h1{
       bottom: -15%;
+    }
+    h2{
+      bottom: -25%;
     }
   }
   .foto2 {
@@ -38,10 +46,14 @@
       bottom: -15%;
       right: 25%;
     }
+    h2{
+      bottom: -25%;
+      right: 15%;
+    }
   }
   .foto3 {
     left: 43%;
-    bottom: 0;
+    bottom: 5%;
     position: absolute;
     height: 200px;
     width: 200px;
@@ -50,6 +62,10 @@
     border: 4px;
     h1{
       top: -15%;
+      left: 5%;
+    }
+    h2{
+      top: -25%;
       left: 5%;
     }
   }

@@ -1,0 +1,90 @@
+.wrapper{
+  background-color: rgb(36, 35, 35);
+  // height: 84.6vh;
+  .contenedor-carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .carrito-vacio{
+      color: rgb(126, 18, 18);
+    }
+    .carrito-comprado{
+      color: rgb(31, 126, 18);
+    }
+    .carrito-acciones{
+      display: flex;
+      justify-content: space-between;
+      .carrito-acciones-izq{
+        .carrito-acciones-vaciar{
+          border: 0;
+          background-color: gray;
+          padding: 1rem;
+          border-radius: 1rem;
+          color: white;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+      .carrito-acciones-der{
+        display: flex;
+        .carrito-acciones-total{
+          display: flex;
+          gap: 1rem;
+          background-color: gray;
+          padding: 1rem;
+          border-top-left-radius: 1rem;
+          border-bottom-left-radius: 1rem;
+          color: white;
+          text-transform: uppercase;
+        }
+        .carrito-acciones-comprar{
+          border: 0;
+          background-color: green;
+          padding: 1rem;
+          border-top-right-radius: 1rem;
+          border-bottom-right-radius: 1rem;
+          color: white;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+
+    }
+    .carrito-productos{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .carrito-producto{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(84, 8, 8);
+        color: white;
+        padding: .5rem;
+        padding-right: 1.5rem;
+        border-radius: 1rem;
+        small{
+          font-size: 0.75rem;
+        }
+        .carrito-producto-eliminar{
+          border: 0;
+          background-color: transparent;
+          color: rgb(255, 153, 0);
+          font-size: 2rem;
+          cursor: pointer;
+        }
+        .carrito-producto-imagen{
+          width: 10rem;
+          border-radius: 1rem;
+          
+        }
+      }
+    }
+  }
+}
+.disabled{
+  display: none;
+}
+.complete{
+  height: 84.6vh;
+}
